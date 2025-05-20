@@ -1,0 +1,47 @@
+***********************************************************************************
+*                                                                                 *
+*  PPPPPPPPPPPP    L               U           U   M           M         A        *
+*  P           P   L               U           U   MM         MM        A A       *
+*  P           P   L               U           U   M M       M M       A   A      *
+*  P           P   L               U           U   M  M     M  M      A     A     *
+*  P           P   L               U           U   M   M   M   M     A       A    *
+*  PPPPPPPPPPPP    L               U           U   M    M M    M    A         A   *
+*  P               L               U           U   M     M     M   AAAAAAAAAAAAA  *
+*  P               L               U           U   M           M   A           A  *
+*  P               L               U           U   M           M   A           A  *
+*  P               LLLLLLLLLLLLL    UUUUUUUUUUU    M           M   A           A  *
+*                                                                                 *
+*            [Plu]gin-based [M]icrobiome [A]nalysis (formerly MiAMi)              *
+* (C) 2016, 2018 Bioinformatics Research Group, Florida International University  *
+*    Under MIT License From Open Source Initiative (OSI), All Rights Reserved.    *
+*                                                                                 *
+*    Any professionally published work using PluMA should cite the following:     *
+*                        T. Cickovski and G. Narasimhan.                          *
+*                Constructing Lightweight and Flexible Pipelines                  *
+*                 Using Plugin-Based Microbiome Analysis (PluMA)                  *
+*                     Bioinformatics 34(17):2881-2888, 2018                       *
+*                                                                                 *
+***********************************************************************************
+[PluMA] Running Plugin: SignificantComplex
+  0%|          | 0/5 [00:00<?, ?it/s]100%|██████████| 5/5 [00:00<00:00, 1009.75it/s]
+1J3R_A_B: ['hydropathy'] 1J3R-model-89-neg_A_Z: ['RASA']; score native: -1.91083300113678; score incorrect: 1.9450315
+attn pos: {'geometric': 0.22133712470531464, 'RASA': 0.20016980171203613, 'HB': 0.18646927177906036, 'charge': 0.1984706073999405, 'hydropathy': 0.1935531198978424}; attn neg: {'geometric': 0.1923036128282547, 'RASA': 0.23041877150535583, 'HB': 0.2010871320962906, 'charge': 0.2002640664577484, 'hydropathy': 0.17592643201351166}
+
+3BFW_C_D: ['hydropathy'] 3BFW-model-47-neg_A_Z: ['RASA']; score native: -1.9019432067871092; score incorrect: 1.8626453
+attn pos: {'geometric': 0.21704484522342682, 'RASA': 0.2039090096950531, 'HB': 0.18066279590129852, 'charge': 0.20529140532016754, 'hydropathy': 0.19309192895889282}; attn neg: {'geometric': 0.1886848658323288, 'RASA': 0.23015131056308746, 'HB': 0.1967129409313202, 'charge': 0.20416776835918427, 'hydropathy': 0.18028311431407928}
+
+2OYA_A_B: ['charge'] 2OYA-model-78-neg_A_Z: ['HB']; score native: -1.8392958641052248; score incorrect: 1.8393258
+attn pos: {'geometric': 0.24026469886302948, 'RASA': 0.18877290189266205, 'HB': 0.17999397218227386, 'charge': 0.22142137587070465, 'hydropathy': 0.16954711079597473}; attn neg: {'geometric': 0.189446821808815, 'RASA': 0.21352477371692657, 'HB': 0.202493354678154, 'charge': 0.21357762813568115, 'hydropathy': 0.1809573918581009}
+
+1F5R_A_I: ['geometric'] 1F5R-model-77-neg_A_Z: ['HB']; score native: -1.5781087875366209; score incorrect: 1.9514295
+attn pos: {'geometric': 0.2494271993637085, 'RASA': 0.19379715621471405, 'HB': 0.18152453005313873, 'charge': 0.19970917701721191, 'hydropathy': 0.1755419820547104}; attn neg: {'geometric': 0.18931101262569427, 'RASA': 0.2247171700000763, 'HB': 0.20579056441783905, 'charge': 0.2028268724679947, 'hydropathy': 0.17735442519187927}
+
+3C4O_A_B: ['charge'] 3C4O-model-11-neg_A_Z: ['RASA']; score native: -1.830350399017334; score incorrect: 1.5926765
+attn pos: {'geometric': 0.22418391704559326, 'RASA': 0.20229044556617737, 'HB': 0.17513690888881683, 'charge': 0.22223824262619019, 'hydropathy': 0.17615042626857758}; attn neg: {'geometric': 0.19346964359283447, 'RASA': 0.23427218198776245, 'HB': 0.19251790642738342, 'charge': 0.2011794000864029, 'hydropathy': 0.17856088280677795}
+
+1WOQ_A_B: ['hydropathy'] 1WOQ-model-33-neg_A_Z: ['geometric']; score native: -1.8753775358200075; score incorrect: -0.6343451999999999
+attn pos: {'geometric': 0.22176049649715424, 'RASA': 0.2068079560995102, 'HB': 0.17948155105113983, 'charge': 0.1970825344324112, 'hydropathy': 0.19486753642559052}; attn neg: {'geometric': 0.2597695291042328, 'RASA': 0.20561440289020538, 'HB': 0.1739431470632553, 'charge': 0.18083862960338593, 'hydropathy': 0.17983423173427582}
+
+3EHU_A_C: ['hydropathy'] 3EHU-model-84-neg_A_Z: ['HB']; score native: 0.4152646064758301; score incorrect: 1.2926233
+attn pos: {'geometric': 0.2023746520280838, 'RASA': 0.20705439150333405, 'HB': 0.18731927871704102, 'charge': 0.20719148218631744, 'hydropathy': 0.1960602104663849}; attn neg: {'geometric': 0.19743764400482178, 'RASA': 0.22442957758903503, 'HB': 0.20244833827018738, 'charge': 0.20250682532787323, 'hydropathy': 0.17317762970924377}
+
